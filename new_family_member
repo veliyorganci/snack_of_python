@@ -1,0 +1,5 @@
+family = {"Name1" : 'veli', "Name2" : 'Hrt', "Name3" : 'Dury'  }
+
+family["Name4"] = 'Mehmtclik'
+
+print(family)
