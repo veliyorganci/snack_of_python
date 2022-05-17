@@ -1,0 +1,5 @@
+sınav1 = input('1. Sınav : ')
+sınav2 = input('2. Sınav : ')
+sınav3 = input('3. Sınav : ')
+ortalama = (float(sınav1)+float(sınav2)+float(sınav3))/3
+print("Ortalama :{0} ".format(ortalama))
