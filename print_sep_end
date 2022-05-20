@@ -1,0 +1,31 @@
+print("Smoking", "is", "slowly", "killing", sep= " + ")
+print("1", "2", "3", "4", sep= " - ")
+
+# examples of sep and end in parentheses
+# notes to myself; When you type more than one expression in print(), you notice that the expressions are joined to each other by spaces. 
+# This is due to the default value of keyword argument sep in the print() function. 
+# This argument, which is defined as a space 👉🏻" " by default, is not visible in the background in the print().
+# The print() command automatically switches to the next line. This is due to the keyword argument end = "\n"
+# Here are the keyword arguments that run in the background of the print() function :
+# print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+# \n examples
+
+x = 5
+print ('value of x       : ', x)
+
+x += 2
+print ("2 more of x      : ", x, "\n") # using string expression '\n', 
+                                       # we produce extra line. 
+                                       # So that we had empty line.
+y = 10
+print ('value of y       : ', y)
+
+y -= 2
+print ("2 minus y        : ", y, "\n")
+
+z = 6
+print ('value of z       : ', z)
+
+z *= 2
+print ("2 times z        : ", z, "\n")
