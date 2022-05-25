@@ -1,0 +1,6 @@
+number = int(input("Enter a number :"))
+
+if number >= 0:
+  print ("{} is positif".format(number))
+else:
+  print ("{} is negatif".format(number))
