@@ -1,0 +1,10 @@
+a = 20
+b = int(input("Ur guess : "))
+while a != b:
+    while a<b:
+        print("Little lower")
+        b = int(input("ur guess :  "))
+    while a>b:
+        print("Little higher")
+        b = int(input("ur guess: "))
+print("U guessed correct!")
