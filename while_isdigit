@@ -1,0 +1,8 @@
+age = input("Enter your age : ")
+
+while not age.isdigit() :
+
+  print("You entered incorrectly")
+  age = input("Enter your age : ")
+  
+print ("Great you entered valid input and your age is : ", age)
