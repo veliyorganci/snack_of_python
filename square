@@ -1,0 +1,6 @@
+# input a number
+digit = int(input("Enter an integer number: "))
+square = digit**2
+
+# print
+print(f"Square of {digit} is {square}")
