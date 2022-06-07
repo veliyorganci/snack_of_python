@@ -1,0 +1,18 @@
+while True:
+  number = input("Enter a positive integer number :")
+  digit = len(number)
+  summ = 0
+
+  if not number.isdigit() :    #yanlış girilirse, rakam girilmezse false verecektir. Yanlış girilse bile çalışması için başına not gireriz. Böylece yanlış giriş yapılsa bile kod çalışacaktır.
+    print(number, " is invalid. Please enter valid input :")  # yanlış girilirse while döngüsünde olduğu için tekrar input isteyecektir.
+
+  elif int(number) >= 0 :  # elif çalışırsa 0 dan büyük bir sayı girildiğini anlıyoruz
+    for i in range(len(number)) :
+        summ = summ + int(number[i]) ** digit
+
+    if summ == int(number) :
+        print(number, " is an Amstrong Number")
+        break
+    else :
+        print(number, " is Not an Amstrong Number")
+        break
