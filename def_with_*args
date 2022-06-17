@@ -1,0 +1,6 @@
+def fruiterer (*fruit) :
+  print('I want to get :')
+  for i in fruit :
+    print('-', i)
+
+fruiterer('orange', 'banana', 'melon', 'ananas')
