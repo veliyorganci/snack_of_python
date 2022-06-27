@@ -1,0 +1,8 @@
+def equal (a, b, c) :
+  num = [a, b, c]
+  sonuç = num.count(max(num, key=num.count))   # abc iterable olmalı, max fonksiyonun içerisine iterable olarak girecek. o yüzden num tanımladık a, b, c olarak. 
+
+  if sonuç > 1 :       # sonucu döndür dersek, 1 den büyükse tekrarlayan sayılar var demektir.
+    return sonuç
+  else :
+    return 0
