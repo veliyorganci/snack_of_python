@@ -1,0 +1,12 @@
+while True:
+  no_one = int(input("first number pls :"))
+  no_two = int(input("second number pls :"))
+
+  try :
+    division = no_one / no_two
+    print("the result of the division is: ", division)
+    break
+  
+  except :
+    print("something went wrong ... Try again.")
+    break
