@@ -1,0 +1,7 @@
+with open("dummy_file.txt", "w", encoding= "utf-8") as file :
+  
+  file.write("This is the first line of my text file.")
+
+with open("dummy_file.txt", "r", encoding="utf-8") as file :
+
+  print(file.read())
