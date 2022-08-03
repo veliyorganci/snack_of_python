@@ -1,0 +1,5 @@
+text = input()
+letter = input()
+counter = text.count(letter)
+frequency = int ((counter/len(text)) * 100)
+print(frequency)
