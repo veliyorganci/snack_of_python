@@ -1,4 +1,6 @@
 even_list=[]
+
+
 odd_list=[]
 
 def slicer(*sayi):
