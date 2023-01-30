@@ -4,5 +4,4 @@ while x < 100:
     print(str(x) + " is even")
   else:
     print(str(x) + " is odd")
-
   x += 1
