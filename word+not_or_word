@@ -1,4 +1,5 @@
 def not_string(word):
+
     if word.split()[0] != 'not':
         return 'not ' + word
     else:
