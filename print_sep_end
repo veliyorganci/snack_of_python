@@ -8,7 +8,6 @@ print("1", "2", "3", "4", sep= " - ")
 # The print() command automatically switches to the next line. This is due to the keyword argument end = "\n"
 # Here are the keyword arguments that run in the background of the print() function :
 # print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-
 # \n examples
 
 x = 5
