@@ -1,4 +1,5 @@
 while True:
+
   number = input("Enter a positive integer number :")
   digit = len(number)
   summ = 0
