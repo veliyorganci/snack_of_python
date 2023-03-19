@@ -1,4 +1,3 @@
 names = ["Ahmed", "Aisha", "Adam", "Joseph", "Gabriel"]
-
 for i in names:
   print("Hello " + i)
