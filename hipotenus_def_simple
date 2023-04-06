@@ -1,3 +1,2 @@
 def hipotenüs(a, b) :
-
   print((a**2+b**2)**0.5)
