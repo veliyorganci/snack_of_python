@@ -4,4 +4,5 @@ new_list = []    # boolean kalan 0 olursa false olacağı için tek sayılarda t
 for i in my_list : 
   if i %2 :
     new_list.append(i**2)
+
 print(new_list)
