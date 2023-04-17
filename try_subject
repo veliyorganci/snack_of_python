@@ -1,4 +1,5 @@
 while True:
+
   no_one = int(input("first number pls :"))
   no_two = int(input("second number pls :"))
 
