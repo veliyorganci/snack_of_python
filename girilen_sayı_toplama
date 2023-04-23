@@ -1,7 +1,6 @@
 print("Bir sayı giriniz : ")
 sayi = int(input())
 
-
 toplam = 0
 i = 1
 while i<=sayi:
