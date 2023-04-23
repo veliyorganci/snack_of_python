@@ -1,5 +1,6 @@
 a = 20
 b = int(input("Ur guess : "))
+
 while a != b:
     while a<b:
         print("Little lower")
