@@ -4,4 +4,5 @@ def gene(x='Solomon', y='David'):  # defined by kwargs (default values assigned 
     print(y, "belongs to Generation Y")
  
 dict_gene = {'y' : "Marry", 'x' : "Fred"}
+
 gene(**dict_gene)
